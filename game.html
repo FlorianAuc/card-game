@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Game</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./style/index.min.css" />
+  </head>
+  <body>
+    <div class="container content">
+      <header class="hero">
+        <div class="hero-body">
+          <div class="columns">
+            <div class="column pseudo">Pierre</div>
+            <div class="column level">Niveau1</div>
+            <div class="column score">0 pt</div>
+          </div>
+        </div>
+      </header>
+      <section class="section">
+        <div class="card played">3</div>
+        <div class="dropzone"></div>
+        <div class="pass">
+          <button class="button is-danger">Passer</button>
+        </div>
+        <div class="columns my-cards">
+          <div class="column">
+            <div class="card player" draggable="true">2</div>
+          </div>
+          <div class="column">
+            <div class="card player" draggable="true">4</div>
+          </div>
+          <div class="column">
+            <div class="card player" draggable="true">5</div>
+          </div>
+          <div class="column">
+            <div class="card player" draggable="true">7</div>
+          </div>
+          <div class="column">
+            <div class="card player" draggable="true">10</div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./game.js"></script>
+    <script src="./drag-drop.js"></script>
+  </body>
+</html>
