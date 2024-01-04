@@ -9,7 +9,6 @@
 
 .pass {
   text-align: right;
-  margin-top: 2rem;
   margin-bottom: 2rem;
   margin-right: 3rem;
 }
@@ -19,8 +18,8 @@
 }
 
 .card.played {
-  margin-bottom: 8rem;
-  margin-top: 2rem;
+  margin-bottom: 1rem;
+
 }
 
 .level {
@@ -38,4 +37,8 @@
   text-align: center;
   line-height: 12rem;
   margin: auto;
+}
+
+.active {
+  border: 1px solid red;
 }
